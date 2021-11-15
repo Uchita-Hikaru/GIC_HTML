@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit your profile</title>
+</head>
+<body>
+    <form action="/my-backend/profile" method="POST">
+        <table width="100%" cellspacing="0px" cellpadding="0%">
+            <tr>
+                <td colspan="2" style="border: 1px solid black; background-color:gray">
+                    <h2>Tell us about yourself</h2>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <h4>Profile Information</h4>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div>Last Name</div>
+                    <input name="lastName" type="text" style="width: 100%;"/>
+                </td>
+                <td>
+                    <div>First Name</div>
+                    <input name="firstNamr" type="text" style="width: 100%;"/>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input name="gender" type="radio" value="male" /> Male
+                    <input name="gender" type="radio" value="female" /> Female
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h4>Corrent Address</h4>
+                    <select name="city">
+                        <option value="" disabled selected>Province/City</option>
+                        <option value="Phnom Penh">Phnom Penh</option>
+                        <option value="Kampong Cham">Kampong Cham</option>
+                        <option value="Kampot">Kampot</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <textarea name="address" rows="2" >Address</textarea>
+                </td>
+            </tr>
+        </table>
+    </form>
+    
+</body>
+</html>
