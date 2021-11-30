@@ -1,0 +1,188 @@
+
+
+body {
+    margin: 0px;
+}
+.home_container {
+    position: relative;
+    height: 100%;
+}
+.sidebar {
+    width: 22%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    padding-top: 20px;
+    font-family: Oswald, Arial, Helvetica, sans-serif;
+    position: fixed;
+}
+.sidebar img {
+    width: 90px;
+    border-radius: 100%;
+    border: 2px solid #e5e5e5;
+    
+}
+.sidebar h4 {
+    color: rgba(0, 0, 0, 0.404);
+}
+#nav {
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+}
+#nav li {
+    position: relative;
+    padding: 15px;
+    border-bottom: 1px solid rgb(241, 234, 234);
+}
+#nav li.active {
+    border-top: 1px solid rgb(241, 234, 234);
+    background-color: rgb(248, 248, 248);
+}
+li.active a:after {
+    background-color: rgb(255, 205, 40);
+    display: block;
+    position: absolute;
+    content: '';
+    right: 0;
+    bottom: 0;
+    width: 3px;
+    height: 100%;
+}
+#nav a {
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+}
+.fa {
+    margin-top: 10px;
+    padding: 5px;;
+    font-size: 30px;
+    width: 20px;   
+    text-decoration: none;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.034);
+    color: rgba(0, 0, 0, 0.541);
+  }
+  .fa-twitter {
+    margin-left: 30%;
+}
+.container {
+    height: 100vh;
+    position: relative;
+    margin-left: 22%;
+    border-left: 15px solid rgb(248, 248, 248);
+    font-family: Oswald, Arial, Helvetica, sans-serif;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+.intro_testi {
+    display: flex;
+    width: 100%;
+}
+.introduction {
+    width: 50%;
+    padding-right: 5%;
+    position: relative;
+}
+.testimonail {
+    margin-left: 50%;
+    position: absolute;
+}
+.t_text {
+    border: 1px solid rgba(0, 0, 0, 0.247);
+    padding: 2% 7%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 3%;
+    background-color: rgba(0, 0, 0, 0.015);
+}
+.t_img {
+    width: 70px;
+    border-radius: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.247);
+    margin-top: -6%;
+    margin-left: 5%;
+}
+.container .content {
+    background-color:  rgb(255, 205, 40);
+    font-size: 30px;
+    width: 300px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8%;
+    padding-right: 2%;
+    margin-left: -8%;
+    color: white;
+
+}
+
+.container table {
+    margin-top: 20px;
+    position: relative;
+}
+.container table td{
+    padding-right: 5%;
+}
+.img_ser {
+    width: 70px;
+}
+
+.heading {
+    text-decoration: underline 3px rgb(250, 188, 18);
+}
+#services td {
+    text-align: center;
+    padding: 0px 10px;  
+}
+.img_client {
+    width: 75px;
+    padding: 0 3% 5%;
+}
+.ff {
+    width: 100%;
+    margin-right: 5%;
+    position: relative;
+    padding-right: 10px;
+    padding-bottom: 200px
+}
+.ff table{
+    width: 100%;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.075);
+    margin: 0;
+    padding-top: 25px;
+}
+.fft {
+    padding-top: 20px;
+}
+.ff1 {
+    width: 22%;
+    position: absolute;
+    background-color: rgb(248, 248, 248);
+}
+.ff2 {
+    width: 22%;
+    margin-left: 26%;
+    position: absolute;
+}
+.ff3 {
+    width: 22%;
+    margin-left: 52%;
+    position: absolute;
+    background-color: rgb(248, 248, 248);
+}
+.ff4 {
+    width: 22%;
+    margin-left: 78%;
+    position: absolute;
+}
+
+.ff p{
+    font-size: 25px;
+    color:  rgb(250, 188, 18);
+}
+.descipt, p {
+    color: rgba(0, 0, 0, 0.5);
+}
